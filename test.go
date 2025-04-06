@@ -7,5 +7,5 @@ type Input struct {
 }
 
 func (p *Input) Print() {
-	fmt.Println("Input:", *p)
+	fmt.Println("Input:", p.Name)
 }
